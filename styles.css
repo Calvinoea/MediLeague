@@ -1,0 +1,41 @@
+body {
+    height: 55px;
+    background-color: cornflowerblue;
+    /* For browsers that do not support gradients */
+    background-image: cornflowerblue;
+}
+
+.main-heading {
+    margin-left: auto;
+    font-size: 50%;
+}
+
+.main-heading h1 {
+    font-size: 100px;
+    text-align: center;
+    color: white;
+}
+
+.icon {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+    background: white;
+    border: 25px solid rosybrown;
+    border: rounded;
+}
+
+@keyframes icon {
+    from {
+        transform: translate(0, 0px);
+    }
+    65% {
+        transform: translate(0, 15px);
+    }
+    to {
+        transform: translate(0, -0px);
+    }
+}
